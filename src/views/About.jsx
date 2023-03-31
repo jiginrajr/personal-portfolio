@@ -10,10 +10,11 @@ const About = () => {
         display="flex"
         alignItems="center"
         sx={{
-          height: "50vh",
+          height: "100vh",
           width: "100%",
-          background:
-            "linear-gradient(69.81deg,rgba(255,209,139,.3) 9.22%,rgba(255,183,217,.3) 33.5%,rgba(139,186,255,.3) 78.79%)",
+          // background:
+          //   "linear-gradient(69.81deg,rgba(255,209,139,.3) 9.22%,rgba(255,183,217,.3) 33.5%,rgba(139,186,255,.3) 78.79%)",
+          backgroundColor:"#eceff1"
         }}
       >
         <Box ml={3} border="3px solid black" p={3}>

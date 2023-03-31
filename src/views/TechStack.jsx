@@ -7,7 +7,7 @@ import htmlLogo from "../assets/html.png";
 import cssLogo from "../assets/css.png";
 import bootstrapLogo from "../assets/bootstrap.png";
 import muiLogo from "../assets/mui.png";
-import { Box } from "@mui/material";
+import { Box, Grid } from "@mui/material";
 
 const StackList = [
   { alt: "css", imgSrc: cssLogo },
@@ -24,24 +24,24 @@ const TechStack = () => {
     <section>
       <SlidingText text="TechStack" />
       <Box>
-        <Box
-          display="flex"
-          flexDirection="row"
+        <Grid
+          container
           justifyContent="space-around"
-          gap={10}
+          sx={{height: "100vh",width: "100%", backgroundColor:"#eceff1",}}
         >
           {StackList.map((item) => (
-            <Box
-              key={item.alt}
-              component="img"
-              src={item.imgSrc}
-              alt={item.alt}
-              width={100}
-              height={100}
-            />
+            <Grid item xs={6} sm={4} md={2}>
+              <Box
+                key={item.alt}
+                component="img"
+                src={item.imgSrc}
+                alt={item.alt}
+                width={100}
+              />
+            </Grid>
           ))}
+      </Grid>
         </Box>
-      </Box>
     </section>
   );
 };

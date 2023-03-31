@@ -5,7 +5,8 @@ const buttonList = ["About", "Tech Stack", "Projects", "Contact" ]
 
 export const NavigationToolbar = () => {
   return (
-        <Box display="flex" boxShadow={1} gap={1} p={2} sx={{position:"fixed", top: 20, right:20, background:"white", borderRadius:2, zIndex: 10,
+        <Box boxShadow={1} gap={1} p={2} sx={{position:"fixed", top: 20, right:20, background:"white", borderRadius:2, zIndex: 10, 
+        display:{  xs : "none", md: "flex" }
         }}>
            {
             buttonList.map(item => (
