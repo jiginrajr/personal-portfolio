@@ -19,7 +19,7 @@ const Header = () => {
           // background: "linear-gradient(90deg, rgba(238,222,174,1) 0%, rgba(210,233,148,1) 100%)",
           background:"linear-gradient(69.81deg,rgba(255,209,139,.3) 9.22%,rgba(255,183,217,.3) 33.5%,rgba(139,186,255,.3) 78.79%)",
           color: "white",
-          justifyContent: "flex-end",
+          justifyContent: "flex-start",
           columnGap: "2rem",
           padding: "1rem",
         }}
