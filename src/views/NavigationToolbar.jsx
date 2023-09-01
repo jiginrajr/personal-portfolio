@@ -24,7 +24,7 @@ export const NavigationToolbar = () => {
           variant="contained"
           sx={{
             boxShadow: "none",
-            border: "1px solid grey",
+            border: "1px solid #e1dede",
             backgroundColor: "#eeeeee",
             color: "black",
             ":hover":{

@@ -27,10 +27,10 @@ const TechStack = () => {
         <Grid
           container
           justifyContent="space-around"
-          sx={{height: "100vh",width: "100%", backgroundColor:"#eceff1",}}
+          sx={{height: "100vh",minWidth: "100vw", backgroundColor:"#eceff1",}}
         >
           {StackList.map((item) => (
-            <Grid item xs={6} sm={4} md={2}>
+            <Grid item xs={6} sm={4} mt={2} display="flex" justifyContent="center" alignItems="center" >
               <Box
                 key={item.alt}
                 component="img"

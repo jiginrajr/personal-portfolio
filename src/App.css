@@ -8,4 +8,9 @@
   max-width: 1280px;
 }
 
+.app {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
 
