@@ -1,8 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { workExperience } from '../../portfolio'
 
 const Experience = () => {
+
+  const [show, setShow] = useState(true)
+
   if (!workExperience.length) return null
+
+  const showDescription = () => {
+    setShow(prevState => !prevState);
+  }
 
   return (
     <section className='section contact center' id='experience'>
@@ -10,28 +17,24 @@ const Experience = () => {
       <ol>
         {workExperience.map((element) => (
           <li>
-            <div>
-            <span style={{backgroundColor : "#f1f1f1", padding: "0px 4px"}}>{element.company}</span>
+            <div style={{marginBottom: "10px"}}>
+            <span style={{backgroundColor : "#f1f1f1", padding: "1px 16px", borderRadius:"4px"}}>{element.company}</span>
             </div>
-            <div>
-            <span style={{ paddingRight: 10 }}>Joining date :</span>
-            <span>{element.joining}</span>
-            </div>
-            <div>
-            <span style={{ paddingRight: 10 }}>Ending date :</span>
-            <span>{element.ending}</span>
-            </div>
-            <div>
+            <div style={{marginBottom:"10px"}}>
             <span style={{ paddingRight: 10 }}>Period :</span>
-            <span>{element.period}</span>
+            <span style={{fontStyle: 'italic'}}>{`${element.joining} - ${element.ending} (${element.period})`}</span>
             </div>
             <div>
-            <span style={{ paddingRight: 10 }}>What I did :</span>
+            <span style={{ paddingRight: 10, textDecoration :"underline" }}>What I did :</span>
+            {/* <button type='button' onClick={showDescription}>Show</button> */}
+            {
+              show && 
             <span >{element.descripton.map(ele => (
                 <ol style={{listStyleType: "circle"}}>
                     <li>{ele}</li>
                 </ol>
             ))}</span>
+            }
             </div>
           </li>
         ))}
