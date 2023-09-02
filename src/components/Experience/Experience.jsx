@@ -11,7 +11,7 @@ const Experience = () => {
         {workExperience.map((element) => (
           <li>
             <div>
-            <span style={{ paddingRight: 10 }}>Company :</span>
+            {/* <span style={{ paddingRight: 10, textDecoration: "underline" }}>Company :</span> */}
             <span style={{backgroundColor : "#f1f1f1", padding: "0px 4px"}}>{element.company}</span>
             </div>
             <div>
@@ -28,7 +28,7 @@ const Experience = () => {
             </div>
             <div>
             <span style={{ paddingRight: 10 }}>Description :</span>
-            <span>{element.descripton.map(ele => (
+            <span >{element.descripton.map(ele => (
                 <ol style={{listStyleType: "circle"}}>
                     <li>{ele}</li>
                 </ol>

@@ -21,17 +21,9 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Real time chat',
-    description:
-      'A real time room based chat application.',
-    stack: ['React', 'Firebase', 'Material UI'],
-    sourceCode: 'https://github.com/chikku-10/react-chat-app',
-    // livePreview: 'https://github.com',
-  },
-  {
     name: 'Simple 2D game',
     description:
-      'A small fun game where the user can collect berries and increase the score.',
+    'A small fun game where the user can collect berries and increase the score.',
     stack: ['React'],
     sourceCode: 'https://github.com/chikku-10/pokemon-game',
     livePreview: 'https://chikku-10.github.io/pokemon-game/',
@@ -39,10 +31,17 @@ const projects = [
   {
     name: 'Drawing App',
     description:
-      'A small applcation to draw polygons, based on SVGs',
+    'A small applcation to draw polygons, based on SVGs',
     stack: ['React'],
     sourceCode: 'https://github.com/chikku-10/drawing-app',
     livePreview: 'https://chikku-10.github.io/drawing-app/',
+  },
+  {
+    name: 'Real time chat',
+    description:
+      'A real time room based chat application.',
+    stack: ['React', 'Firebase', 'Material UI'],
+    sourceCode: 'https://github.com/chikku-10/react-chat-app',
   },
 ]
 
