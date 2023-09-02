@@ -1,3 +1,3 @@
 # Personal Portfolio
 
-Created in refernce to https://github.com/rajshekhar26/cleanfolio
+Created in reference to https://github.com/rajshekhar26/cleanfolio
