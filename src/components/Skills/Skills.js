@@ -2,7 +2,6 @@ import uniqid from 'uniqid'
 import './Skills.css'
 
 const Skills = ({elements, title}) => {
-  // if (!skills.length) return null
   if (!elements?.length) return null
 
   return (

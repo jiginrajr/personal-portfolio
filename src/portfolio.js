@@ -21,28 +21,28 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Real time chat',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'A real time room based chat application.',
+    stack: ['React', 'Firebase', 'Material UI'],
+    sourceCode: 'https://github.com/chikku-10/react-chat-app',
+    // livePreview: 'https://github.com',
   },
   {
-    name: 'Project 2',
+    name: 'Simple 2D game',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'A small fun game where the user can collect berries and increase the score.',
+    stack: ['React'],
+    sourceCode: 'https://github.com/chikku-10/pokemon-game',
+    livePreview: 'https://chikku-10.github.io/pokemon-game/',
   },
   {
-    name: 'Project 3',
+    name: 'Drawing App',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'A small applcation to draw polygons, based on SVGs',
+    stack: ['React'],
+    sourceCode: 'https://github.com/chikku-10/drawing-app',
+    livePreview: 'https://chikku-10.github.io/drawing-app/',
   },
 ]
 
@@ -63,6 +63,7 @@ const skills = [
   'React Testing Library',
   'Rest API',
   'Node JS',
+  "Firebase"
 ]
 
 const exploringSkills = [
@@ -70,7 +71,8 @@ const exploringSkills = [
   // if there are no skills, Skills section won't show up
   'Framer-motion',
   'Tailwind',
-  'Three JS'
+  'Three JS',
+  "Vue JS"
 ]
 
 const contact = {
@@ -78,4 +80,23 @@ const contact = {
   email: 'jiginrajr@gmail.com',
 }
 
-export { header, about, projects, skills, contact, exploringSkills }
+const workExperience = [
+  {
+    company: "Infosys",
+    profile:" Systems Engineer",
+    joining: "Aug-2021",
+    ending: "Present",
+    period : "2 years",
+    descripton : [
+      "Technical experience in developing React JS Application.Experience includes working with Redux store, React custom and default Hooks, Reusable components and Props for the data flow",
+      "Worked with third party libraries like ReactDnD for creating complex utility functionalities and used Axios for handling REST APIs. Improved website performance using several memoization methodologies offered by React and delaying DOM rendering for non-visible components.",
+      "Experienced in JavaScript, HTML5, vanilla CSS and css frameworks like Material UI and Bootstap in building responsive Front-End applications",
+      "This was an agile based project and I played the role of developer to build UI of Application and constantly communicated with the clients to resolve anomalies.",
+      "Worked on unit testing of react components using enzyme and React testing library and supported in different testing stages of the application.",
+      "Have experience in version control tools like Git and hosting services like GutHub and Azure built tool.",
+      "Worked in Azure MSAL Auth 2.0 library to authenticate users for the developed applications."
+    ]
+  }
+]
+
+export { header, about, projects, skills, contact, exploringSkills,workExperience }
