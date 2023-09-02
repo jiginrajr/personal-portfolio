@@ -93,7 +93,7 @@ const workExperience = [
       "This was an agile based project and I played the role of developer to build UI of Application and constantly communicated with the clients to resolve anomalies.",
       "Worked on unit testing of react components using enzyme and React testing library and supported in different testing stages of the application.",
       "Have experience in version control tools like Git and hosting services like GutHub and Azure built tool.",
-      "Worked in Azure MSAL Auth 2.0 library to authenticate users for the developed applications."
+      "Worked with Azure MSAL Auth 2.0 library to authenticate users for the developed applications."
     ]
   }
 ]

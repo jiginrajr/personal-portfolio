@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { workExperience } from '../../portfolio'
+import './Experience.css'
 
 const Experience = () => {
 
@@ -18,7 +19,7 @@ const Experience = () => {
         {workExperience.map((element) => (
           <li>
             <div style={{marginBottom: "10px"}}>
-            <span style={{backgroundColor : "#f1f1f1", padding: "1px 16px", borderRadius:"4px"}}>{element.company}</span>
+            <span className='title' style={{ padding: "1px 16px", borderRadius:"4px"}}>{element.company}</span>
             </div>
             <div style={{marginBottom:"10px"}}>
             <span style={{ paddingRight: 10 }}>Period :</span>
