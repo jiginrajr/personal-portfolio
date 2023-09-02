@@ -5,7 +5,7 @@ const Experience = () => {
   if (!workExperience.length) return null
 
   return (
-    <section className='section contact center' id='Experience'>
+    <section className='section contact center' id='experience'>
       <h2 className='section__title'>Work Experience</h2>
       <ol>
         {workExperience.map((element) => (
