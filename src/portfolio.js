@@ -92,7 +92,7 @@ const workExperience = [
       "Experienced in JavaScript, HTML5, vanilla CSS and css frameworks like Material UI and Bootstap in building responsive Front-End applications",
       "This was an agile based project and I played the role of developer to build UI of Application and constantly communicated with the clients to resolve anomalies.",
       "Worked on unit testing of react components using enzyme and React testing library and supported in different testing stages of the application.",
-      "Have experience in version control tools like Git and hosting services like GutHub and Azure built tool.",
+      "Have experience in version control tools like Git and hosting services like GitHub and Azure built tool.",
       "Worked with Azure MSAL Auth 2.0 library to authenticate users for the developed applications."
     ]
   }
