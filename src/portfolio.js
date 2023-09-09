@@ -10,10 +10,10 @@ const about = {
   role: 'Front End Engineer',
   description:
     'As a frontend web developer and avid technophile, I possess a strong desire to learn emerging technologies and leverage them to solve complex technological challenges. I am currently seeking a role that aligns with my goals and aspirations to advance as a full-stack web developer.',
-  resume: 'https://drive.google.com/file/d/1-jNlbPpHrZI7aukPC5J5qn18qjZsGUJt/view?usp=sharing',
+  resume: 'https://drive.google.com/file/d/1dg48wzXKUn-VRlc8--VypTKBY3Zj7VIE/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/jigin-raj-r/',
-    github: 'https://github.com/chikku-10',
+    github: 'https://github.com/jiginrajr',
   },
 }
 
@@ -25,23 +25,23 @@ const projects = [
     description:
     'A small fun game where the user can collect berries and increase the score.',
     stack: ['React'],
-    sourceCode: 'https://github.com/chikku-10/pokemon-game',
-    livePreview: 'https://chikku-10.github.io/pokemon-game/',
+    sourceCode: 'https://github.com/jiginrajr/pokemon-game',
+    livePreview: 'https://jiginrajr.github.io/pokemon-game/',
   },
   {
     name: 'Drawing App',
     description:
     'A small applcation to draw polygons, based on SVGs',
     stack: ['React'],
-    sourceCode: 'https://github.com/chikku-10/drawing-app',
-    livePreview: 'https://chikku-10.github.io/drawing-app/',
+    sourceCode: 'https://github.com/jiginrajr/drawing-app',
+    livePreview: 'https://jiginrajr.github.io/drawing-app/',
   },
   {
     name: 'Real time chat',
     description:
       'A real time room based chat application.',
     stack: ['React', 'Firebase', 'Material UI'],
-    sourceCode: 'https://github.com/chikku-10/react-chat-app',
+    sourceCode: 'https://github.com/jiginrajr/react-chat-app',
   },
 ]
 
